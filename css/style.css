@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(90deg, #000, #efff00);
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+
+.container {
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.container h1 {
+    margin-bottom: 20px;
+}
+
+.container input[type="number"] {
+    display: block;
+    margin: 20px auto;
+    width: 210px;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 5px 8px 10px;
+    background-color: #1c1c1c;
+    color: #efff00;
+}
